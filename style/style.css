@@ -12,6 +12,7 @@ header{
 }
 
 .nav-list{
+  color: #1A1A1A;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -695,6 +696,15 @@ margin-left: 40px;
 
 .footer-links li{
   margin-bottom: 10px;
+}
+
+.footer-links a{
+  transition: .2s;
+  color: #1A1A1A;
+}
+
+.footer-links a:hover{
+  color:#066f14;
 }
 
 .icons{
