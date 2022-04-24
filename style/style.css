@@ -8,7 +8,7 @@
 header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-list{
@@ -22,6 +22,7 @@ header{
   transition: 0.5s;
   text-decoration: none;
   font-style:normal;
+  color: #1A1A1A;
 }
 
 .nav-list a:hover{
@@ -37,6 +38,11 @@ header{
 .join{
   justify-content: space-between;
   margin-right: 80px;
+  transition: .2s;
+}
+
+.join .login:hover{
+  color: #066F14;
 }
 
 .login{
@@ -219,6 +225,8 @@ header{
   font-size: 18px;
   line-height: 23px;
   color: #4A4A4A;
+  text-decoration: none;
+  color: #066F14;
 }
 
 .about-us{
@@ -259,7 +267,7 @@ header{
   font-weight: 500;
   font-style: 18px;
   line-height:23px;
-
+  text-decoration: none;
   color:#066F14;
 }
 
@@ -317,7 +325,7 @@ header{
   font-weight: bold;
   font-size: 40px;
   line-height: 50px;
-
+  margin-bottom: 20px;
   color: #1A1A1A;
   align-items: center;
   justify-content: center;
@@ -338,8 +346,12 @@ header{
   justify-content: center;
 }
 
-.products-subtitle p{
+.products-subtitle a{
   margin-left: 30px;
+  text-decoration: none;
+  color: #066F14;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .products-category{
@@ -347,6 +359,11 @@ header{
   justify-content: space-around;
   display: flex;
   width: 100%;
+}
+
+.rating-stars a{
+  color: gold;
+  text-decoration: none;
 }
 
 .plant-text{
@@ -449,6 +466,7 @@ margin-left: 40px;
   height: 55px;
   margin-top: 50px;
   margin-left: 600px;
+  border-radius: 6px;
 }
 
 .customer-section{
@@ -479,6 +497,7 @@ margin-left: 40px;
   height: 204px;
   z-index: 1;
   padding: 15px;
+  border-radius: 10px;
 }
 
 .customer-section-main{
@@ -724,6 +743,8 @@ margin-left: 40px;
   display:flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color:#066F14;
 }
 
 #instagram{
@@ -734,6 +755,8 @@ margin-left: 40px;
   display:flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color:#066F14;
 }
 
 #twitter{
@@ -744,4 +767,6 @@ margin-left: 40px;
   display:flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color:#066F14;
 }

@@ -17,21 +17,21 @@
 
   <nav class="nav">
     <ul class="nav-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="#hero-section">Home</a></li>
+      <li><a href="#collection-section">Services</a></li>
+      <li><a href="#about-section">About Us</a></li>
+      <li><a href="#products-section">Blog</a></li>
     </ul>
   </nav>
 
   <div class="join">
-    <a class="login" href="#">Log in</a>
-    <a class="main-link" href="#">Sign Up</a>
+    <a class="login" href="#newsletter-section">Log in</a>
+    <a class="main-link" href="#newsletter-section">Sign Up</a>
   </div>
 
 </header>
 <main>
-  <section class="hero">
+  <section class="hero" id="hero-section">
     <div class="hero-main">
       <h1 class="hero-title"> Growing<br> Beatiful Plants <br>at Home</h1>
       <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus inventore<br> a minima voluptates consequuntur, eius totam incidunt eaque sed atque <br>expedita voluptatum illum deserunt odit, omnis odio, necessitatibus eos repellendus.</p>
@@ -58,10 +58,10 @@
   </section>
 
   <section>
-    <div class="collection">
+    <div class="collection" id="collection-section">
       <div class="ss">
         <h2 class="collection-title">We have a lots of plants<br> collection for you and<br> your family</h2>
-        <p class="collection-text">See all collection</p>
+        <a class="collection-text" href="#" alt="#">See all collection</a>
       </div>
       <div class="collection-pictures">
         <img class=" woody" src="images/klipartz9.png" alt="#">
@@ -72,8 +72,7 @@
   </section>
 
   <section>
-
-    <div class="about-us">
+    <div class="about-us" id="about-section">
       <div class="pic-block">
         <div class="about-us-pic">
           <img src="images/todd-trapani-aVVAI7z0WoY-unsplash1.png" alt="#">
@@ -83,7 +82,7 @@
 
       <div class="about-text">
 
-        <p class="aboutus-title">About Us</p>
+        <a class="aboutus-title" href="#">About Us</a>
 
         <h3 class="about-title">Continue to Develop to<br> Became Global Company</h3>
 
@@ -98,20 +97,26 @@
 
   </section>
 
-  <section>
+  <section id="products-section">
     <div>
       <h3 class="products-title">our best products</h3>
       <div class="products-subtitle">
-        <p>New Plants</p>
-        <p>New Arrivals</p>
-        <p>Sale</p>
+        <a href="#" alt="#">New Plants</a>
+        <a href="#" alt="#">New Arrivals</a>
+        <a href="#" alt="#">Sale</a>
       </div>
       <div class="products-category">
         <div class="outdoor-plant">
           <img src="images/nagy-arnold-X_IvVDuHvDQ-unsplash(1)1.png" alt="#">
           <div class="plant-text">
             <p class="product-name">Monstera Plant</p>
-            <input type="range">
+            <div class="rating-stars">
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+            </div>
             <p>$50.00</p>
           </div>
         </div>
@@ -119,7 +124,13 @@
           <img src="images/linh-le-Ebwp2-6BG8E-unsplash1.png" alt="#">
           <div class="plant-text">
             <p class="product-name">Monstera Plant</p>
-            <input type="range">
+            <div class="rating-stars">
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+            </div>
             <p>$50.00</p>
           </div>
         </div>
@@ -127,7 +138,13 @@
           <img src="images/pexels-kate-amos-2718447(1)1.png" alt="#">
           <div class="plant-text">
             <p class="product-name">Pottel Plant</p>
-            <input type="range">
+            <div class="rating-stars">
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+            </div>
             <p>$50.00</p>
           </div>
         </div>
@@ -135,7 +152,13 @@
           <img src="images/galina-n-miziNqvJx5M-unsplash1.png" alt="#">
           <div class="plant-text">
             <p class="product-name">Indoor Plant</p>
-            <input type="range">
+            <div class="rating-stars">
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="fas fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+              <i><a class="far fa-star" href="#"></a></i>
+            </div>
             <p>$50.00</p>
           </div>
         </div>
@@ -164,7 +187,7 @@
     </div>
   </section>
 
-  <section class="newsletter">
+  <section class="newsletter" id="newsletter-section">
     <div class="text-input-btn">
       <div>
         <h1 class="subscribe-title">Subscribe Our Newsletter</h1>
@@ -207,9 +230,9 @@
         <h6 class="footer-logo">Plant</h6>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Similique atque ratione quibusdam dolor harum itaque<br> fugiat eveniet consectetur, magnam a officiis iusto, veritatis<br> aspernatur saepe illum labore consequatur impedit illo.</p>
         <div class="icons">
-          <i><a class="fab fa-facebook-f" id="facebook"></a></i>
-          <i class="fab fa-twitter" id="twitter"></i>
-          <i class="fab fa-instagram" id="instagram"></i>
+          <i><a class="fab fa-facebook-f" id="facebook" href="#" alt="#"></a></i>
+          <i><a class="fab fa-twitter" id="twitter" href="#" alt="#"></a></i>
+          <i><a class="fab fa-instagram" id="instagram" href="#" alt="#"></a></i>
         </div>
       </div>
 
